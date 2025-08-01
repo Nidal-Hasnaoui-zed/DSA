@@ -24,4 +24,11 @@ print(F'the sorted array is : {my_array}')
 
     # outer loop !
 
-
+#lets take our simplw array : 
+# our arrays is  [4,3,2,1]
+# the condition of innner loop is n-i-1 : 
+# case  1 : i = 0 and n=4 so inner loop go from 0 to 3 : 
+# it loop 3 times in case 1 that force 4 go to last of array ! [3,2,1,4]
+#case 2 : i=1 and n 0 4 so inner loop go from 0 to 2 : 
+#it loop 2 times in case 2 that force 3 go to his correct position [2,1,3,4]
+# and this is the demonstration iìif why we use n-i-1 in outer loop !
