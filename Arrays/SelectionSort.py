@@ -10,3 +10,15 @@ for i in range(n-1):
     my_array.insert(i,min_value)
 
 print(f'the sorted array is readu {my_array}')
+
+# the outer loop is control how much time inner loop must run !
+# the putput of this one len(my_array) = 4
+# case 1 : [1,4,3,2]
+# case 2 : [1,2,4,3]
+# case 3 : [1,2,3,4]
+# as you see for you can sort this array you need loop just 3 times bro so outer loop go into n-1 
+
+# lets talk right kenw about the inner loop !
+
+
+
