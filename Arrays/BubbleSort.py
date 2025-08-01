@@ -8,6 +8,11 @@ for i in range(n-1) : # the outer loop !
     for j in range(n-i-1): #the inner loop !
         if my_array[j] > my_array[j+1] : 
             my_array[j] , my_array[j+1] = my_array[j+1] ,my_array[j]   
+            #i will add an condition if the array  loop is not changed !
+            swapped = True 
+        if not swapped : 
+            break
+            
 print(f'the sorted array is {my_array}')
 
 # for understtand the consepts of loops we have this one : 
