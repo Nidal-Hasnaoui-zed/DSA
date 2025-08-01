@@ -1,9 +1,10 @@
-# found min value !
+# Bubble sort alogorihtme !
 
 my_array = [4,3,2,1] 
-min_val = my_array[0]
-for i in my_array : 
-    if i < min_val : 
-        min_val = my_array[i]
-
-print(f'the min value is {min_val}')
+n = len(my_array)
+for i in range(n-1): 
+    for j in range(n-i-1): 
+        if my_array[j] > my_array [j+1] : 
+            my_array[j] , my_array [j+1] = my_array[j+1] , my_array[j]
+            
+print(f'the sorted array is {my_array}')
