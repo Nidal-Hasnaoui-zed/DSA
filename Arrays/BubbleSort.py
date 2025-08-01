@@ -2,14 +2,13 @@
 
 
 # creating an array : 
-my_array = [7,12,9,11,3]
-n = len(my_array)
-for i in range(n-1): 
-    for j in range(n-i-1): 
-       if my_array[j] > my_array[j+1] : 
-           my_array[j], my_array[j+1] = my_array[j+1] ,my_array[j]
-           
-print(F'the sorted array is : {my_array}')
+my_array = [4,3,2,1]
+n =len(my_array)
+for i in range(n-1) : # the outer loop !
+    for j in range(n-i-1): #the inner loop !
+        if my_array[j] > my_array[j+1] : 
+            my_array[j] , my_array[j+1] = my_array[j+1] ,my_array[j]   
+print(f'the sorted array is {my_array}')
 
 # for understtand the consepts of loops we have this one : 
         # outer loop !
@@ -31,4 +30,4 @@ print(F'the sorted array is : {my_array}')
 # it loop 3 times in case 1 that force 4 go to last of array ! [3,2,1,4]
 #case 2 : i=1 and n 0 4 so inner loop go from 0 to 2 : 
 #it loop 2 times in case 2 that force 3 go to his correct position [2,1,3,4]
-# and this is the demonstration iìif why we use n-i-1 in outer loop !
+# and this is the demonstration iìif why we use n-i-1 in inner loop !
