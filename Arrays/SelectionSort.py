@@ -11,7 +11,9 @@ for i in range(n-1):
     # my_array.insert(i,min_value)
     
     
-    # iwill show you the best one bro hahahah !
+    # i will show you the best one bro hahahah  
+    my_array[i] , my_array[min_index] = my_array[min_index] , my_array[i]
+    
 
 print(f'the sorted array is readu {my_array}')
 
