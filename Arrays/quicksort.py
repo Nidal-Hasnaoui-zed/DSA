@@ -22,3 +22,5 @@ def quicksort(array, low=0, high=None):
 my_array = [64, 34, 25, 12, 22, 11, 90, 5]
 quicksort(my_array)
 print("Sorted array:", my_array)
+
+# you must to understand this in home bro : 
