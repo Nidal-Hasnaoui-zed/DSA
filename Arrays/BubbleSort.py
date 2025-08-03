@@ -24,7 +24,7 @@ print(f'The sorted array is {my_array}')
 # and for we can sorted we mut loop jut 3 times 
 # and this is the demonstrantion of why we use n-1 in outer loop !
 
-    # outer loop !
+    # inner loop !
 
 #lets take our simplw array : 
 # our arrays is  [4,3,2,1]
