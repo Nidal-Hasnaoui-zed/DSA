@@ -10,5 +10,7 @@ for i in range(1,n):
             insert_index = j 
     l.insert(insert_index,current_value)
 print(f'the sorted array is this one homme {l}')
+
+# make it improved bc it can be improved alitle more bro !
         
     
